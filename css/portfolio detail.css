@@ -1,0 +1,115 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+/*color*/
+body
+{
+	background: var(--cwh)
+}
+/*color*/
+/*slider-cover*/
+.slider-cover
+{
+	position: relative;
+	height: 465px;
+	width: 100%;
+	background: url("../photo/slider/8_dd30ad1411d35356ddd2977f5c046297.jpg") no-repeat center;
+	background-size: cover
+}
+.slider-cover .text
+{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%)
+}
+
+.slider-cover h2
+{
+	margin: 15px 0;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.slider-cover h4
+{
+	color: var(--cwh);
+}
+/*slider-cover*/
+
+/*main*/
+.main
+{
+	padding: 100px 0 50px;
+}
+
+.main .detail
+{
+	overflow: hidden;
+}
+
+.main .detail img
+{
+	width: 100%
+}
+
+.main .aside h3
+{
+	font-weight: 700;
+	font-size: 30px;
+	color: var(--cbk);
+	margin-bottom: 30px;
+}
+
+.main .aside h5
+{
+	color: var(--cbk)
+}
+
+.main .aside p
+{
+	color: var(--cwrwhite)
+}
+
+.main .aside p a
+{
+	color: inherit;
+	transition: .4s;
+}
+
+.main .aside p a:hover
+{
+	color: var(--crd);
+}
+
+.main .next-prev
+{
+	padding: 40px 0;
+}
+
+.main .prev,
+.main .next
+{
+	color: var(--cbk);
+	cursor: pointer;
+	transition: .4s;
+}
+
+.main .prev:hover,
+.main .next:hover
+{
+	color: var(--crd)
+}
+
+.main .next-prev a
+{
+	color: inherit
+}
+
+/*main*/

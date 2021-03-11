@@ -1,0 +1,283 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+body
+{
+	background: var(--cwh)
+}
+/*slider-cover*/
+.slider-cover
+{
+	position: relative;
+	height: 465px;
+	width: 100%;
+	background: url("../photo/slider/8_dd30ad1411d35356ddd2977f5c046297.jpg") no-repeat center;
+	background-size: cover
+}
+.slider-cover .text
+{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%)
+}
+
+.slider-cover h2
+{
+	margin: 15px 0;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.slider-cover h4
+{
+	color: var(--cwh);
+}
+/*slider-cover*/
+/*main*/
+.main 
+{
+	padding: 100px 0 50px;
+}
+
+/* our-news */
+.main .our-news .our
+{
+	margin-bottom: 40px;
+}
+
+.our-news .photo
+{
+	height: auto;
+	overflow: hidden;
+}
+
+.our-news .photo img
+{
+    width: 100%
+}
+
+.main .our-news .after
+{
+	background: var(--cwh);
+	width: 90%;
+	margin: 0 5%;
+	transform: translateY(-30px);
+	padding-top: 10px
+}
+
+.main .our-news .after .custom-btn
+{
+	background: var(--cbk);
+	color: var(--cwh);
+	font-size: 12px;
+	padding: 10px 20px;
+}
+
+.main .our-news .after .custom-btn::before
+{
+	background: var(--crd);
+	mix-blend-mode: lighten;
+	right: none;
+	left: 0
+}
+
+.main .our-news .after h2
+{
+	font-size: 1.5em;
+	font-weight: 700
+}
+
+.main .our-news .after h6
+{
+	font-weight: 700
+}
+
+.main .our-news .after h2 a,
+.main .our-news .after h6 a
+{
+	color: var(--cbk);
+	transition: .5s;
+}
+
+.main .our-news .after h2:hover a,
+.main .our-news .after h6:hover a
+{
+	color: var(--crd)
+}
+
+.main .our-news .btns
+{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.main .our-news .btns .custom-btn
+{
+	padding: 8.5px 15px;
+	background: var(--coffwh);
+	color: var(--cbk);
+}
+
+.main .our-news .btns .custom-btn a
+{
+	color: inherit
+}
+
+.main .our-news .btns .custom-btn.active,
+.main .our-news .btns .custom-btn:hover
+{
+	background: var(--cbk);
+	color: var(--cwh);
+}
+
+.main .our-news .btns .custom-btn::before
+{
+	width: 3px;
+	height: 0;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	background: var(--crd);
+	transition: .3s;
+}
+
+.main .our-news .btns .custom-btn:first-of-type::before
+{
+	right: none;
+	left: 0
+}
+
+.main .our-news .btns .custom-btn:hover::before,
+.main .our-news .btns .custom-btn.active::before
+{
+	height: 100%
+}
+/* our-news */
+
+/*sidebar*/
+.main .sidebar .search
+{
+	background: var(--cbk);
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+.main .sidebar .search .form-control
+{
+	background: transparent;
+	border-radius: 0;
+	border: none;
+	outline: none;
+	color: var(--cwh);
+	font-size: 18px
+}
+
+.main .sidebar .search .form-control::placeholder
+{
+	color: var(--cwh);
+	font-size: 13px;
+}
+
+.main .sidebar .search .form-control:focus
+{
+	box-shadow: none;
+}
+
+.main .sidebar .section-one .body .post
+{
+	overflow: hidden;
+	padding: 25px 0;
+	border-bottom: 1px solid #81818190
+}
+
+.main .sidebar .section-one .body .post.three
+{
+	border: none;
+}
+
+.main .sidebar .section-one .body img
+{
+	float: left;
+	margin-right: 8px
+}
+
+.main .sidebar .section-one .body h5
+{
+	color: var(--cwrwhite);
+	display: inline;
+	line-height: 25px;
+}
+
+.main .sidebar .section-one,
+.main .sidebar .section-two,
+.main .sidebar .section-three
+{
+	border: 2px solid var(--coffwh);
+	background: var(--coffwh);
+	margin: 0 0 40px;
+}
+
+.main .sidebar .section-one .header,
+.main .sidebar .section-two .header,
+.main .sidebar .section-three .header
+{
+	background: var(--cwh);
+	color: var(--cbk);
+	padding: 10px 40px
+}
+
+.main .sidebar .section-one .header h4,
+.main .sidebar .section-two .header h4,
+.main .sidebar .section-three .header h4
+{
+	font-weight: 700;
+}
+
+.main .sidebar .section-one .body,
+.main .sidebar .section-two .body
+{
+	padding: 10px 40px
+}
+
+.main .sidebar .section-two .body h5
+{
+	margin: 35px 0;
+	color: var(--cwrwhite);
+}
+
+.main .sidebar .section-one .body h5:hover,
+.main .sidebar .section-two .body h5:hover,
+.main .sidebar .section-three .body h5:hover
+{
+	color: var(--cbk);
+}
+
+.main .sidebar .section-one .body h5 a,
+.main .sidebar .section-two .body h5 a,
+.main .sidebar .section-three .body h5 a
+{
+	color: inherit;
+	transition: .3s;
+}
+
+.main .sidebar .section-three .body
+{
+	padding: 40px
+}
+
+.main .sidebar .section-three .body h5
+{
+	color: var(--cwrwhite);
+	display: inline;
+	line-height: 35px;
+}
+
+/*sidebar*/
+/*main*/

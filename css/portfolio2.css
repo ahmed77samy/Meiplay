@@ -1,0 +1,141 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+/*slider-cover*/
+.slider-cover
+{
+	position: relative;
+	height: 465px;
+	width: 100%;
+	background: url("../photo/slider/8_dd30ad1411d35356ddd2977f5c046297.jpg") no-repeat center;
+	background-size: cover
+}
+.slider-cover .text
+{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%)
+}
+
+.slider-cover h2
+{
+	margin: 15px 0;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.slider-cover h4
+{
+	color: var(--cwh);
+}
+/*slider-cover*/
+
+/* showcase */
+.showcase
+{
+	padding: 100px 0;
+	background: var(--cwh);
+}
+
+.showcase .feat
+{
+	position: relative;
+	height: auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.showcase .feat .image
+{
+	height: 100%;
+	width: 100%;
+}
+
+.showcase .feat .image img
+{
+	width: 100%;
+	transition: .5s;
+}
+
+.showcase .feat:hover img
+{
+	transform: scale(1.1,1.1) rotate(5deg);
+}
+
+.showcase .feat .overlay
+{
+	position: absolute;
+	top: 0;
+	height: 0;
+	width: 0;
+	height: 100%;
+	overflow: hidden;
+	background: var(--crd);
+	opacity: .8;
+	transition: .5s;
+}
+
+.showcase .feat:hover .overlay
+{
+	width: 100%
+}
+
+.showcase .feat .overlay .fade
+{
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: .2s;
+	transition-timing-function: unset;
+	cursor: pointer;
+}
+
+.showcase .feat .overlay h5.fade
+{
+	bottom: 80px;
+}
+
+.showcase .feat .overlay h3.fade
+{
+	bottom: 40px;
+}
+
+.showcase .feat:hover .fade
+{
+	opacity: 1;
+	transform: translateX(35px);
+	transition: .5s ease-in;
+}
+
+.showcase .feat .fade a
+{
+	color: var(--cwh);
+	transition: .3s;
+}
+
+.showcase .feat:hover .fade a:hover
+{
+	color: var(--cbk)
+}
+
+.showcase .custom-btn
+{
+	background: var(--cbk);
+	color: var(--cwh);
+	margin-top: 30px;
+	font-size: 16px;
+}
+
+.showcase .custom-btn::before
+{
+	background: var(--crd);
+	mix-blend-mode: lighten;
+}
+/* showcase */

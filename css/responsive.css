@@ -1,0 +1,368 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+                                                        /* strat responsive */
+
+
+@media (max-width:767px) /* extra small screen */ {
+
+    .themes
+    {
+        left: -175px;
+        width: 175px;
+    }
+
+    header nav .menu-search .overlay .search input
+    {
+        font-size: 30px;
+    }
+    
+    .services
+    {
+        -webkit-perspective: 6000px;
+        -moz-perspective: 6000px;
+        -ms-perspective: 6000px;
+        -o-perspective: 6000px;
+        perspective: 6000px;
+    }
+
+    .the-best .text
+    {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .subscribe .row .fix
+    {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .subscribe .form-control
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .subscribe .custom-btn
+    {
+        float: none !important;
+        display: block;
+        margin: auto;
+    }
+
+    .Counter .lol
+    {
+        border: none;
+    }
+
+    .employees .overlay
+    {
+        padding: 40px 0
+    }
+
+    .clients .content
+    {
+        padding-left: 0;
+    }
+
+    .contact-us
+    {
+        padding: 50px 0
+    }
+
+    .contact-us h2
+    {
+        text-align: center;
+        float: none !important;
+        margin-bottom: 50px;
+    }
+
+    .contact-us button.custom-btn
+    {
+        float: none !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .started
+    {
+        padding: 40px 0;
+    }
+    
+    .started h2
+    {
+        float: none !important;
+        text-align: center;
+    }
+
+    .started button
+    {
+        float: none !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .choose-us .parent .photo img
+    {
+        width: 100%
+    }
+
+    .main .aside .section-one
+    {
+        margin: 40px 0;
+    }
+
+    .main .detail .one .row .text h3
+    {
+        margin: 30px 0;
+    }
+
+    .main .single .tags section img
+    {
+        float: none !important;
+    }
+
+    .main .single .comments .replay img
+    {
+        float: none !important;
+        margin-bottom: 0;
+    }
+
+    .main .single .comments .replay .info h4
+    {
+        margin-top: 30px
+    }
+
+    .main .single .send form .form-group input
+    {
+        width: 100%;
+        margin: 0 0 30px 0 !important;
+        float: none !important;
+    }
+
+    .main .single .send form .form-group
+    {
+        margin-bottom: 0;
+    }
+    
+
+    .contact form
+    {
+        padding: 0
+    }
+
+    .contact form .form-group
+    {
+        margin: 0
+    }
+
+    .contact form .form-group .form-control
+    {
+        width: 100%;
+        margin: 0 0 20px 0 !important;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) /* small screen */ {
+    
+    .themes
+    {
+        left: -175px;
+        width: 175px;
+    }
+
+    header nav .menu-search .overlay .search input
+    {
+        font-size: 30px;
+    }
+    
+    .services
+    {
+        -webkit-perspective: 6000px;
+        -moz-perspective: 6000px;
+        -ms-perspective: 6000px;
+        -o-perspective: 6000px;
+        perspective: 6000px;
+    }
+
+    .the-best .text
+    {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .subscribe .row .fix
+    {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .subscribe .form-control
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .subscribe .custom-btn
+    {
+        float: none !important;
+        display: block;
+        margin: auto;
+    }
+
+    .Counter .lol
+    {
+        border: none;
+    }
+
+    .clients .content
+    {
+        padding-left: 0;
+    }
+
+    .employees .overlay
+    {
+        padding: 40px 0
+    }
+
+    .contact-us
+    {
+        padding: 50px 0
+    }
+
+    .contact-us h2
+    {
+        text-align: center;
+        float: none !important;
+        margin-bottom: 50px;
+    }
+
+    .contact-us button.custom-btn
+    {
+        float: none !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .started
+    {
+        padding: 60px 0;
+    }
+    
+    .started h2
+    {
+        float: none !important;
+        text-align: center;
+    }
+
+    .started button
+    {
+        margin-top: 30px;
+        float: none !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .choose-us .parent .photo img
+    {
+        width: 100%
+    }
+
+    .main .aside .section-one
+    {
+        margin: 40px 0;
+    }
+
+    .main .detail .one .row .text h3
+    {
+        margin: 30px 0;
+    }
+
+    .contact form
+    {
+        padding: 0 50px
+    }
+
+    .contact form .form-group
+    {
+        margin: 0
+    }
+
+    .contact form .form-group .form-control
+    {
+        width: 100%;
+        margin: 0 0 20px 0 !important;
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px) /* medium screen */ {
+    .clients .content
+    {
+        padding-left: 15px;
+    }
+
+    .contact-us
+    {
+        padding: 80px 0
+    }
+
+    .contact-us h2
+    {
+        text-align: center;
+        float: none !important;
+        margin-bottom: 50px;
+    }
+
+    .contact-us button.custom-btn
+    {
+        float: none !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .exeperience .photo
+    {
+        height: 600px
+    }
+
+    .contact form
+    {
+        padding: 0 120px
+    }
+}
+
+
+
+@media (min-width:1200px) /* large screen */ {
+    .services .parent
+    {
+        margin-right: 4.166666665%
+    }
+
+    .services .parent:last-of-type
+    {
+        margin-right: 0;
+    }
+
+    .services .parent
+    {
+        padding: 0
+    }
+}
+
+
+                                                    /* end responsive */

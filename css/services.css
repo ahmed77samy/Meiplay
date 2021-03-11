@@ -1,0 +1,598 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+/*slider-cover*/
+.slider-cover
+{
+	position: relative;
+	height: 465px;
+	width: 100%;
+	background: url("../photo/slider/8_dd30ad1411d35356ddd2977f5c046297.jpg") no-repeat center;
+	background-size: cover
+}
+.slider-cover .text
+{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%)
+}
+
+.slider-cover h2
+{
+	margin: 15px 0;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.slider-cover h4
+{
+	color: var(--cwh);
+}
+/*slider-cover*/
+
+/* product */
+.product
+{
+	background: var(--cwh);
+	padding: 50px 0;
+}
+
+.product h6
+{
+	margin:0;
+	padding: 0;
+	color: var(--cwrwhite)
+}
+
+.product h2
+{
+	margin: 10px 0 15px;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk);
+}
+
+.product p
+{
+	margin-bottom: 50px;
+	color: var(--cwrwhite)
+}
+
+.product .pro
+{
+	padding: 50px 15px;
+	position: relative;
+	height: 400px;
+	margin-bottom: 15px;
+	background: var(--cwh);
+	transition: .5s;
+	outline: 1px solid var(--coffwh)
+}
+
+.product .pro:hover
+{
+	box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
+}
+
+.product .pro::before
+{
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	width: 5px;
+	height: 0;
+	background: var(--crd);
+	transition: .5s;
+}
+
+.product .pro:hover::before
+{
+	height: 100%;
+	top: 0
+}
+
+.product .pro h3
+{
+	color: var(--cbk);
+	margin-bottom: 30px;
+}
+
+.product .pro p
+{
+	color: var(--cwrwhite);
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+.product .pro img
+{
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.product .pro a
+{
+	color: var(--cbk);
+	transition: .3s;
+	cursor: pointer;
+}
+
+.product .pro a:hover
+{
+	color: var(--crd)
+}
+/* product */
+
+/*services*/
+.services
+{
+	padding: 50px 0;
+	background: var(--cbk);
+	background-size: cover;
+	-webkit-perspective: 1500px;
+	-moz-perspective: 1500px;
+	-ms-perspective: 1500px;
+	-o-perspective: 1500px;
+	perspective: 1500px;
+}
+
+.services h6
+{
+	margin: 0;
+	padding: 0;
+	color: var(--crd);
+	font-weight: 700;
+}
+
+.services h2
+{
+	margin: 15px;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.services p
+{
+	color: var(--cwrblack);
+	margin: 20px 0 60px;
+	font-weight: 900;
+}
+
+.services .parent
+{
+	margin-bottom: 10px;
+	position: relative;
+	height: 250px;
+}
+
+.services .parent .parent-rotation
+{
+	width: 100%;
+	height: 100%;
+	transform-style:preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transition: .7s;
+	transform-origin: center;
+}
+
+.services .parent:hover .parent-rotation
+{
+	transform: rotatey(-180deg);
+}
+
+.services .parent .parent-rotation .ser
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 30px;
+	outline: .5px solid var(--cbody);
+	height: 250px;
+	transition: .5s;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style:preserve-3d;
+	cursor: pointer;
+}
+
+.services .parent .parent-rotation .ser.front
+{
+	background: var(--cbk);
+}
+
+.services .parent .parent-rotation .ser.back
+{
+	background: var(--crd);
+	transform: rotatey(180deg);
+}
+
+.services .parent .parent-rotation .ser img
+{
+	width: 80px;
+	margin-bottom: 50px;
+}
+
+.services .parent .parent-rotation .ser h4
+{
+	color: var(--cwh)
+}
+
+/*services*/
+
+/* some-thing */
+.some-thing
+{
+	padding: 50px 0;
+	background: var(--coffwh);
+}
+
+.some-thing h6
+{
+	color: var(--cwrwhite)
+}
+
+.some-thing h2
+{
+	margin: 0 0 25px;
+	padding: 0;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk)
+}
+
+.some-thing p
+{
+	margin-bottom: 40px;
+	color: var(--cwrwhite)
+}
+
+.some-thing .slider
+{
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.some-thing .slider img
+{
+	width: 100%
+}
+
+.some-thing .slider .overlay
+{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100%;
+	width: 0%;
+	transition: .5s;
+	background: var(--crdo);
+}
+
+.some-thing .slider:hover .overlay
+{
+	width: 100%;
+}
+
+.some-thing .slider .custom-btn
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: var(--cwh);
+	color: var(--cbk);
+	background-blend-mode: difference;
+	padding: 22.5px 40px;
+	font-size: 16px;
+}
+
+.some-thing .slider .custom-btn::before
+{
+	right: 50%;
+	transform: translateX(50%);
+	width: 0px;
+	transition: .7s;
+	background: var(--cwh);
+	mix-blend-mode: difference;
+}
+
+.some-thing .slider .custom-btn:hover::before
+{
+	width: 100%
+}
+/* some-thing */
+
+/* showcase */
+.showcase
+{
+	padding: 50px 0;
+	background: var(--cbk);
+}
+
+.showcase h6
+{
+	color: var(--cwrblack)
+}
+
+.showcase h2
+{
+	margin: 0 0 25px;
+	padding: 0;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cwh)
+}
+
+.showcase p
+{
+	margin-bottom: 80px;
+	color: var(--cwrblack)
+}
+
+.showcase .feat
+{
+	position: relative;
+	height: auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.showcase .feat .image
+{
+	height: 100%;
+	width: 100%;
+}
+
+.showcase .feat .image img
+{
+	width: 100%;
+	transition: .5s;
+}
+
+.showcase .feat:hover img
+{
+	transform: scale(1.1,1.1) rotate(5deg);
+}
+
+.showcase .feat .overlay
+{
+	position: absolute;
+	top: 0;
+	height: 0;
+	width: 0;
+	height: 100%;
+	overflow: hidden;
+	background: var(--crd);
+	opacity: .8;
+	transition: .5s;
+}
+
+.showcase .feat:hover .overlay
+{
+	width: 100%
+}
+
+.showcase .feat .overlay .fade
+{
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: .2s;
+	transition-timing-function: unset;
+	cursor: pointer;
+}
+
+.showcase .feat .overlay h5.fade
+{
+	bottom: 80px;
+}
+
+.showcase .feat .overlay h3.fade
+{
+	bottom: 40px;
+}
+
+.showcase .feat:hover .fade
+{
+	opacity: 1;
+	transform: translateX(35px);
+	transition: .5s ease-in;
+}
+
+.showcase .feat .fade a
+{
+	color: var(--cwh);
+	transition: .3s;
+}
+
+.showcase .feat:hover .fade a:hover
+{
+	color: var(--cbk)
+}
+/* showcase */
+
+/* Counter */
+.Counter
+{
+	margin: 40px 0 0;
+	border-top: 1px solid var(--cbody);
+}
+.Counter .lol
+{
+	border-right: 1px solid var(--cbody);
+}
+
+.Counter .lol:last-of-type
+{
+	border-right: none;
+}
+
+.Counter .count
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 260px
+}
+
+.Counter .count h2
+{
+	font-size: 40px;
+	color: var(--cwh)
+}
+
+.Counter .count h4
+{
+	color: var(--cwrblack);
+	margin-top: 30px;
+}
+/* Counter */
+
+/* clients */
+.clients
+{
+	background: var(--cwh);
+	padding: 50px 0;
+}
+
+.clients .photo
+{
+	height: 550px;
+	background: url("../photo/clients/4.jpg") no-repeat;
+	background-size: cover;
+}
+
+.clients .content
+{
+	padding: 40px 0 40px 30px;
+}
+
+.clients .content  h2
+{
+	margin-bottom: 40px;
+	padding: 0;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk)
+}
+
+.clients .content p
+{
+	margin-bottom: 20px;
+	color: var(--cwrwhite)
+}
+
+.clients .content .custom-btn
+{
+	background: var(--cbk);
+	color: var(--cwh);
+}
+
+.clients .content .custom-btn::before
+{
+	background: var(--crd);
+	mix-blend-mode: lighten;
+}
+/* clients */
+
+/* trust */
+.trust
+{
+	background: var(--coffwh);
+	padding: 50px 0;
+}
+
+.trust h6
+{
+	margin:0;
+	padding: 0;
+	color: var(--cwrwhite)
+}
+
+.trust h2
+{
+	margin: 10px 0 15px;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk)
+}
+
+.trust p
+{
+	margin-bottom: 50px;
+	color: var(--cwrwhite)
+}
+
+.trust .brand
+{
+	position: relative;
+	height: 200px;
+	margin-bottom: 15px;
+	background: var(--cwh);
+	cursor: pointer;
+}
+
+.trust .brand::after
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--cwh);
+	transition: .5s;
+	opacity: .4;
+}
+
+.trust .brand:hover::after
+{
+	background: none;
+}
+
+.trust .brand::before
+{
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	width: 5px;
+	height: 0;
+	background: var(--crd);
+	transition: .5s;
+}
+
+.trust .brand:hover::before
+{
+	height: 100%;
+	top: 0
+}
+
+.trust .brand img
+{
+	position: absolute;
+	top: calc(50% - 41px);
+	left: calc(50% - 60px);
+}
+/* trust */

@@ -1,0 +1,547 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+/*slider-cover*/
+.slider-cover
+{
+	position: relative;
+	height: 465px;
+	width: 100%;
+	background: url("../photo/slider/8_dd30ad1411d35356ddd2977f5c046297.jpg") no-repeat center;
+	background-size: cover
+}
+.slider-cover .text
+{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%)
+}
+
+.slider-cover h2
+{
+	margin: 15px 0;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.slider-cover h4
+{
+	color: var(--cwh);
+}
+/*slider-cover*/
+
+/* know-us */
+.know-us
+{
+	background: var(--cwh);
+	padding: 50px 0;
+}
+
+.know-us .first-content
+{
+	margin-bottom: 30px;
+}
+
+.know-us .first-content h6
+{
+	padding: 0;
+	margin: 0;
+	color: var(--cwrwhite)
+}
+
+.know-us .first-content h2
+{
+	margin: 15px 0 30px;
+	padding: 0;
+	color: var(--cbk);
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.know-us .first-content p
+{
+	margin-bottom: 40px;
+	color: var(--cwrwhite)
+}
+
+.know-us .first-content h3
+{
+	color: var(--cbk);
+	font-size: 70px;
+	font-weight: 900;
+	margin: 0;
+}
+
+.know-us .second-img img
+{
+	width: 100%
+}
+/* know-us */
+
+/* customer */
+.customer
+{
+	padding: 50px 0;
+	background: var(--cbk);
+}
+
+.customer h6
+{
+	margin:0;
+	padding: 0;
+	color: var(--cwrblack)
+}
+
+.customer h2
+{
+	margin: 10px 0 50px;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cwh)
+}
+
+.customer .person
+{
+	overflow: hidden;
+}
+
+.customer .person .name
+{
+	width: 25%;
+	margin-right: 8.33333333%;
+	float: left;
+	cursor: pointer;
+	transition: .4s;
+	color: var(--cwh);
+	margin-top: 40px
+}
+
+.customer .person .name.active,
+.customer .person .name:hover
+{
+	color: var(--crd)
+}
+
+.customer .person .name img
+{
+	width: 79px;
+	height: 79px;
+}
+
+.customer .paper
+{
+	position: relative;
+	margin-top: 30px;
+	height: 250px;
+}
+
+.customer .paper .response
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.customer .paper .response h4
+{
+	color: var(--cwh);
+	line-height: 35px;
+}
+
+.customer .paper .response span
+{
+	color: var(--cwrblack)
+}
+/* customer */
+
+/* subscribe */
+.subscribe
+{
+	padding: 50px 0;
+	background: var(--coffwh);
+}
+
+.subscribe h6
+{
+	color: var(--cwrwhite)
+}
+
+.subscribe h2
+{
+	margin: 0 0 25px;
+	padding: 0;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk)
+}
+
+.subscribe p
+{
+	margin-bottom: 60px;
+	color: var(--cwrwhite)
+}
+
+.subscribe .cover
+{
+	background: url("../photo/subscribe/action-plan-aerial-agenda-america-american-analysis-1438091-pxhere.com.jpg") no-repeat;
+	background-size: cover;
+	height: 400px
+}
+
+.subscribe .row h2
+{
+	margin: 0;
+	padding: 0;
+}
+
+.subscribe .custom-btn
+{
+	background: var(--cbk);
+	color: var(--cwh);
+}
+
+.subscribe .custom-btn::before
+{
+	background: var(--crd);
+	mix-blend-mode: lighten;
+}
+
+.subscribe .form-control
+{
+	width: calc(100% - 204.64px);
+	border-radius: 0;
+	height: 68px
+}
+/* subscribe */
+
+/* people */
+.people
+{
+	padding: 50px 0;
+	background: var(--cwh)
+}
+
+.people  h6
+{
+	color: var(--cwrwhite)
+}
+
+.people  h2
+{
+	margin: 0 0 15px;
+	padding: 0;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk)
+}
+
+.people p
+{
+	margin-bottom: 40px;
+	color: var(--cwrwhite)
+}
+
+.people .main
+{
+	overflow: hidden;
+}
+
+.people .main .to-left
+{
+	position: relative;
+	height: 430px;
+	transition: .4s;
+}
+
+.people .main .to-left .child
+{
+	position: absolute;
+	top: 0;
+	height: 430px;
+	width: 316px;
+	overflow: hidden;
+}
+
+.people .main .to-left .child.one
+{
+	left: 40px
+}
+
+.people .main .to-left .child.two
+{
+	left: 396px
+}
+
+.people .main .to-left .child.three
+{
+	left: 752px
+}
+
+.people .main .to-left .child.four
+{
+	left: 1108px
+}
+
+.people .main .to-left .child.five
+{
+	left: 1464px;
+}
+
+.people .main .to-left .child.six
+{
+	left: 1820px
+}
+
+.people .main .to-left .child.seven
+{
+	left: 2176px
+}
+
+.people .main .to-left .child.eight
+{
+	left: 2532px
+}
+
+.people .main .to-left .child .cover
+{
+	position: relative;
+	height: 350px;
+}
+
+.people .main .to-left .child .cover img
+{
+	width: 100%;
+	transition: .5s;
+}
+
+.people .main .to-left .child .cover .overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: var(--crdo);
+	overflow: hidden;
+	transition: .5s
+}
+
+.people .main .to-left .child:hover .overlay
+{
+	width: 100%;
+}
+
+.people .main .to-left .child .overlay .animate
+{
+	position: absolute;
+	left: 10px;
+	opacity: 0;
+	transition: .2s ease-out ;
+	color: var(--cwh);
+	cursor: pointer;
+	padding-bottom: 3px;
+}
+
+.people .main .to-left .child .overlay .animate.first
+{
+	top: 30px;
+	line-height: 12px;
+}
+
+.people .main .to-left .child .overlay .animate.second
+{
+	top: 60px;
+	line-height: 12px;
+}
+
+.people .main .to-left .child .overlay .animate.third
+{
+	top: 90px;
+	line-height: 12px;
+}
+
+.people .main .to-left .child .overlay .animate.fourty
+{
+	bottom: 20px;
+	padding: 20px 30px;
+	background: var(--cbk);
+	font-size: 16px;
+	left: 50%;
+}
+
+.people .main .to-left .child .overlay .animate.custom-btn::before
+{
+	background: var(--cwh);
+	mix-blend-mode: difference;
+}
+
+.people .main .to-left .child .overlay span::before
+{
+	background: var(--cwh)
+}
+
+.people .main .to-left .child .overlay span:hover::before
+{
+	width: 100%;
+}
+
+.people .main .to-left .child:hover .overlay .animate
+{
+	transition: .5s ease-in .2s;
+	opacity: 1;
+	transform: translateX(30px);
+}
+
+.people .main .to-left .child:hover .overlay .animate.fourty
+{
+	transform: translateX(-50%);
+}
+
+.people .main .to-left .child h3
+{
+	color: var(--cbk);
+	font-weight: 700;
+	transition: .3s;
+}
+
+.people .main .to-left .child:hover h3
+{
+	color: var(--crd)
+}
+
+.people .main .to-left .child span
+{
+	position: relative;
+}
+
+.people .main .to-left .child span::before
+{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 1px;
+	background: var(--cbk);
+	transition: .5s
+}
+
+.people .main .to-left .child:hover span.h6::before
+{
+	width: 100%;
+}
+
+.people .main .control
+{
+	margin: auto;
+	width: 125px;
+	overflow: hidden;
+}
+
+.people .main .control .arrow
+{
+	background: var(--cbk);
+	color: var(--cwh);
+	padding: 20px;
+	display: inline-block;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.people .main .control .arrow:hover
+{
+	background: var(--crd);
+	color: var(--cwh);
+}
+/* people */
+
+/* choose-us */
+.choose-us
+{
+	padding: 50px 0;
+	background: var(--cwh)
+}
+
+.choose-us h6
+{
+	color: var(--cwrwhite)
+}
+
+.choose-us h2
+{
+	margin: 0 0 25px;
+	padding: 0;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk)
+}
+
+.choose-us p:not(.feat)
+{
+	margin-bottom: 40px;
+	color: var(--cwrwhite)
+}
+
+.choose-us .tabs .item
+{
+	background: var(--coffwh);
+	color: var(--cbk);
+	transition: .4s;
+	cursor: pointer;
+	padding: 25px 0
+}
+
+.choose-us .tabs .item.active,
+.choose-us .tabs .item:hover
+{
+	background: var(--cbk);
+	color: var(--cwh)
+}
+
+.choose-us .parent
+{
+	position: relative;
+	margin-top: 60px;
+	overflow: hidden;
+}
+
+.choose-us .parent .row
+{
+	position: absolute;
+	top: 0;
+	height: 0;
+	display: none;
+}
+
+.choose-us .parent .row.active
+{
+	position: static;
+}
+
+.choose-us .parent .row .text
+{
+	color: var(--cwrwhite)
+}
+
+.choose-us .parent .row .text p:first-of-type
+{
+	line-height: 30px;
+}
+
+.choose-us .parent .row .text .demo-icon
+{
+	background: var(--crd);
+	border-radius: 2px;
+	color: var(--cwh);
+}
+
+/* choose-us */

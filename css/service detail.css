@@ -1,0 +1,165 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+/*color*/
+body
+{
+	background: var(--cwh)
+}
+/*color*/
+/*slider-cover*/
+.slider-cover
+{
+	position: relative;
+	height: 465px;
+	width: 100%;
+	background: url("../photo/slider/8_dd30ad1411d35356ddd2977f5c046297.jpg") no-repeat center;
+	background-size: cover
+}
+.slider-cover .text
+{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%)
+}
+
+.slider-cover h2
+{
+	margin: 15px 0;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.slider-cover h4
+{
+	color: var(--cwh);
+}
+/*slider-cover*/
+
+/*main*/
+.main
+{
+	padding: 100px 0;
+}
+
+.main .detail
+{
+	overflow: hidden;
+}
+
+.main .detail img
+{
+	width: 100%
+}
+
+.main .detail h2
+{
+	margin: 60px 0 40px;
+	padding: 0;
+	color: var(--cbk);
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.main .detail p
+{
+	color: var(--cwrwhite)
+}
+
+.main .detail .one
+{
+	margin: 40px 0;
+}
+
+.main .detail .one .row .text h3
+{
+	margin:0 0 30px;
+	color: var(--cbk)
+}
+
+.main .detail .one .row .text p.p-r
+{
+	margin-bottom: 30px;
+}
+
+.main .detail .one .row .text .demo-icon
+{
+	background: var(--crd);
+	border-radius: 2px;
+	color: var(--cwh);
+}
+
+.main .aside .section-one
+{
+	border: 2px solid var(--coffwh);
+	background: var(--coffwh);
+	margin: 0 0 40px;
+}
+
+.main .aside .section-one .header
+{
+	background: var(--cwh);
+	color: var(--cbk);
+	padding: 10px 40px
+}
+
+.main .aside .section-one .header h4
+{
+	font-weight: 700;
+}
+
+.main .aside .section-one .body
+{
+	padding: 10px 40px
+}
+
+.main .aside .section-one .body h5
+{
+	margin: 35px 0;
+	color: var(--cwrwhite);
+}
+
+.main .aside .section-one .body h5:hover
+{
+	color: var(--cbk);
+}
+
+.main .aside .section-one .body h5 a
+{
+	color: inherit;
+	transition: .3s;
+}
+
+.main .aside .section-two
+{
+	background: url("../photo/service detail/s3_e6c22507285b0c8492ecd5d921af2de3.jpg") no-repeat center;
+	background-size: cover;
+	padding: 40px
+}
+
+.main .aside .section-two h4
+{
+	color: var(--cwh);
+	padding-bottom: 30px;
+}
+
+.main .aside .section-two p
+{
+	color: var(--cwrblack)
+}
+
+.main .aside .section-two h2
+{
+	font-size: 30px;
+	font-weight: 700;
+	color: var(--cwh)
+}
+
+/*main*/

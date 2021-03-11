@@ -1,0 +1,232 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+body
+{
+	background: var(--cwh)
+}
+/*slider-cover*/
+.slider-cover
+{
+	position: relative;
+	height: 465px;
+	width: 100%;
+	background: url("../photo/slider/8_dd30ad1411d35356ddd2977f5c046297.jpg") no-repeat center;
+	background-size: cover
+}
+.slider-cover .text
+{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%)
+}
+
+.slider-cover h2
+{
+	margin: 15px 0;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.slider-cover h4
+{
+	color: var(--cwh);
+}
+/*slider-cover*/
+
+/* contact */
+.contact
+{
+	padding: 50px 0;
+}
+
+.contact h6
+{
+	color: var(--cwrwhite);
+}
+
+.contact h2
+{
+	margin: 0 0 25px;
+	padding: 0;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk)
+}
+
+.contact p
+{
+	margin-bottom: 80px;
+	color: var(--cwrwhite);
+}
+/*form*/
+.contact form
+{
+	padding: 0 150px
+}
+
+.contact form .form-group
+{
+	margin-bottom: 50px;
+}
+
+form .form-group::placeholder
+{
+	color: var(--cwrwhite)
+}
+
+form .form-group .form-control
+{
+	background: var(--coffwh);
+	border-radius: 0;
+	font-size: 18px;
+	border: none !important;
+	border-right: 0px solid var(--crd) !important;
+	outline: none !important;
+	box-shadow: none !important;
+	color: var(--cbk);
+	transition: .4s;
+}
+
+form .form-group .form-control:focus
+{
+	box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05) !important;
+	border-right: 4px solid var(--crd) !important;
+	background: transparent;
+}
+
+form .form-group input
+{
+	padding: 30px;
+	width: 47%;
+	float: left;
+}
+
+form .form-group input:first-of-type
+{
+	margin-right: 3%;
+}
+
+form .form-group input:last-of-type
+{
+	margin-left: 3%;
+}
+
+form .form-group textarea
+{
+	resize: none;
+	padding: 30px 20px;
+	height: 150px;
+	width: 100%;
+}
+
+form .custom-btn
+{
+	background: var(--cbk);
+	color: var(--cwh);
+}
+
+form .custom-btn::before
+{
+	background: var(--crd);
+	mix-blend-mode: lighten;
+}
+/*form*/
+/* contact */
+/* office */
+.office
+{
+	background: var(--cwh);
+	padding: 50px 0 100px;
+}
+
+.office h6
+{
+	color: var(--cwrwhite);
+}
+
+.office h2
+{
+	margin: 10px 0 15px;
+	font-size: 40px;
+	font-weight: 900;
+	color: var(--cbk);
+}
+
+.office p.text-center
+{
+	margin-bottom: 50px;
+	color: var(--cwrwhite);
+}
+
+.office .offer
+{
+	padding: 50px 15px;
+	position: relative;
+	margin-bottom: 15px;
+	background: var(--cwh);
+	transition: .5s;
+	outline: 1px solid var(--coffwh);
+	box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.05);
+}
+
+.office .offer:hover
+{
+	box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.1);
+}
+
+.office .offer::before
+{
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 0%;
+	width: 5px;
+	height: 0;
+	background: var(--crd);
+	transition: .5s;
+}
+
+.office .offer:hover::before
+{
+	height: 100%;
+	top: 0
+}
+
+.office .offer h4
+{
+	color: var(--cbk);
+	margin-bottom: 30px;
+}
+
+.office .offer p
+{
+	color: var(--cwrwhite);
+	line-height: 30px;
+}
+
+.office .offer img
+{
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.office .offer a
+{
+	color: var(--cbk);
+	transition: .3s;
+	cursor: pointer;
+}
+
+.office .offer a:hover
+{
+	color: var(--crd)
+}
+/* office */

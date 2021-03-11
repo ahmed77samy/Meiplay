@@ -1,0 +1,159 @@
+/*
+templete-name: meiplay;
+The owner of the templete: ahmed samy;
+Template-version: 1.0.0;
+Date created: 14/2/2020
+*/
+/*slider-cover*/
+.slider-cover
+{
+	position: relative;
+	height: 465px;
+	width: 100%;
+	background: url("../photo/slider/8_dd30ad1411d35356ddd2977f5c046297.jpg") no-repeat center;
+	background-size: cover
+}
+.slider-cover .text
+{
+	position: absolute;
+	width: 100%;
+	top: 60%;
+	left: 0;
+	transform: translateY(-50%)
+}
+
+.slider-cover h2
+{
+	margin: 15px 0;
+	padding: 0;
+	color: var(--cwh);
+	font-size: 60px;
+	font-weight: 900;
+}
+
+.slider-cover h4
+{
+	color: var(--cwh);
+}
+/*slider-cover*/
+
+/* our-news */
+.our-news
+{
+	padding: 100px 0;
+	background: var(--cwh);
+}
+
+.our-news .our
+{
+	margin-bottom: 40px;
+}
+
+.our-news .photo
+{
+	height: auto !important;
+	overflow: hidden;
+}
+
+.our-news .photo img
+{
+    width: 100%
+}
+
+
+.our-news .after
+{
+	background: var(--cwh);
+	width: 90%;
+	margin: 0 5%;
+	transform: translateY(-30px);
+	padding-top: 10px
+}
+
+.our-news .after .custom-btn
+{
+	background: var(--cbk);
+	color: var(--cwh);
+	font-size: 12px;
+	padding: 10px 20px;
+}
+
+.our-news .after .custom-btn::before
+{
+	background: var(--crd);
+	mix-blend-mode: lighten;
+	right: none;
+	left: 0
+}
+
+.our-news .after h2
+{
+	font-size: 1.5em;
+	font-weight: 700
+}
+
+.our-news .after h6
+{
+	font-weight: 700
+}
+
+.our-news .after h2 a,
+.our-news .after h6 a
+{
+	color: var(--cbk);
+	transition: .5s;
+}
+
+.our-news .after h2:hover a,
+.our-news .after h6:hover a
+{
+	color: var(--crd)
+}
+
+.our-news .btns
+{
+	text-align: center;
+}
+
+.our-news .btns .custom-btn
+{
+	padding: 8.5px 15px;
+	background: var(--coffwh);
+	color: var(--cbk);
+}
+
+.our-news .btns .custom-btn a
+{
+	color: inherit
+}
+
+.our-news .btns .custom-btn.active,
+.our-news .btns .custom-btn:hover
+{
+	background: var(--cbk);
+	color: var(--cwh);
+}
+
+.our-news .btns .custom-btn::before
+{
+	width: 3px;
+	height: 0;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	background: var(--crd);
+	transition: .3s;
+}
+
+.our-news .btns .custom-btn:first-of-type::before
+{
+	right: none;
+	left: 0
+}
+
+.our-news .btns .custom-btn:hover::before,
+.our-news .btns .custom-btn.active::before
+{
+	height: 100%
+}
+/* our-news */
