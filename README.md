@@ -1,3 +1,3 @@
 # Meiplay
 
-[Meiplay](https://sad-bohr-0b5e89.netlify.app/)
+[Meiplay](https://jolly-turing-2eb369.netlify.app/)
